@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="css/calculator.css">
+    
+</head>
+<body>
+    <table class="calculator" data-color="black">
+        
+        <thead>
+           <tr>
+                <td colspan="4">
+                    <div class="output">
+                        <div data-previous-operand="" class="previousOperand"></div>
+                        <div data-current-operand="" class="currentOperand"></div>
+
+                    </div>
+                </td>
+           </tr>
+        </thead>
+        <tbody class="actions">
+            <tr>
+                <td colspan="2">
+                    <button class="btn span" data-allClear=''>AC</button>
+
+                </td>
+                <td colspan="1" >
+                    <button class="btn" data-delete=''>DEL</button>
+
+                </td>
+              
+                <td colspan="1">
+                    <button class="btn opr" data-operation=''>÷</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="1">
+                    <button class="btn" data-number=''>7</button>
+                </td>
+                <td colspan="1" >
+                    <button class="btn" data-number=''>8</button>
+                </td>
+                <td colspan="1">
+                    <button class="btn" data-number=''>9</button>
+                </td>
+                <td colspan="1">
+                    <button class="btn opr" data-operation="">×</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="1">
+                    <button class="btn" data-number="">4</button>
+                </td>
+                <td colspan="1" >
+                    <button class="btn" data-number="">5</button>
+                </td>
+                <td colspan="1">
+                    <button class="btn" data-number="">6</button>
+                </td>
+                <td colspan="1">
+                    <button class="btn opr" data-operation="">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1">
+                    <button class="btn" data-number="">1</button>
+                </td>
+                <td colspan="1" >
+                    <button class="btn" data-number="">2</button>
+                </td>
+                <td colspan="1">
+                    <button class="btn" data-number="">3</button>
+                </td>
+                <td colspan="1">
+                    <button class="btn opr" data-operation="">+</button>
+                </td>
+            </tr>
+
+            <tr>
+                
+                <td colspan="2" >
+                    <button class="btn span" data-number="">0</button>
+                </td>
+                <td colspan="1">
+                    <button class="btn" data-number="">.</button>
+                </td>
+                <td colspan="1">
+                    <button class="btn opr" data-equals="">=</button>
+                </td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+    <script src="js/calculator.js"></script>
+</body>
+</html>
